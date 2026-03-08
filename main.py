@@ -29,7 +29,7 @@ def load_blip():
 blip_processor, blip_model = load_blip()
 
 # Gemini
-GENAI_API_KEY = ("AIzaSyBJHBhgeaQ3_TwDLPyOD9-EVYdkSGzUzZ0")
+GENAI_API_KEY = ("Enter your api key here")
 if not GENAI_API_KEY:
     st.error("❌ GENAI_API_KEY not set in environment variables.")
 gemini_client = Client(api_key=GENAI_API_KEY) if GENAI_API_KEY else None
@@ -139,4 +139,5 @@ if uploaded_file:
             st.markdown(f"**Wikipedia:** {wiki}")
         else:
             ddg = get_duckduckgo_info(query)
+
             st.markdown(f"**DuckDuckGo:** {ddg or 'No extra info found.'}")
