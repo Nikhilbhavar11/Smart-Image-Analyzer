@@ -99,28 +99,28 @@ streamlit run main.py
 
 ### 📤 Image Upload Interface
 <p align="center">
-  <img src="screenshots/upload_interface.png" width="700">
+  <img src="screenshots/upload_interface.png" width="500">
 </p>
 
 ---
 
 ### 📷 Uploaded Image Preview
 <p align="center">
-  <img src="screenshots/uploaded_image.png" width="700">
+  <img src="screenshots/uploaded_image.png" width="500">
 </p>
 
 ---
 
 ### 🧠 Detailed AI Analysis
 <p align="center">
-  <img src="screenshots/detailed_analysis.png" width="700">
+  <img src="screenshots/detailed_analysis.png" width="500">
 </p>
 
 ---
 
 ### 🌐 Supplementary Information
 <p align="center">
-  <img src="screenshots/supplementary_info.png" width="700">
+  <img src="screenshots/supplementary_info.png" width="500">
 </p>
 
 ---
